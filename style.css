@@ -38,7 +38,7 @@ body {
   padding: 10px 20px;
   height: 60px;
   border-radius: 30px;
-  width:100%;
+  flex:1;
   margin-right: 16px;
   font-size: 18px;
 }
@@ -115,6 +115,9 @@ body {
   display: none;
 }
 @media screen and (max-width: 400px) {
+  .card {
+  padding: 10px;  
+}
   .weather-icon {
     width: 100px;
     margin-top: 30px;
