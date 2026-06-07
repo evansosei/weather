@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h3 class="title">LiveForecast</h3>
+      <p class="author">
+        Made with <span class="love">&#128147;</span> by Evans Osei Kwaku
+      </p>
+      <div class="card">
+        <div class="search">
+          <input
+            type="text"
+            class="input"
+            placeholder="enter city name"
+            spellcheck="false"
+          />
+          <button><img src="./images/search.png" alt="search-image" /></button>
+        </div>
+
+        <div>
+          <p class="error">Enter a correct city name</p>
+        </div>
+        <div class="weather">
+          <img src="./images/rain.png" class="weather-icon" alt="" />
+          <h1 class="temp">22 °C</h1>
+          <p class="city">New York</p>
+          <div class="details">
+            <div class="col">
+              <img src="images/humidty.png" alt="" />
+              <div>
+                <p class="humidity">50%</p>
+                <p>Humidity</p>
+              </div>
+            </div>
+            <div class="col">
+              <img src="images/wind.png" alt="" />
+              <div>
+                <p class="wind">15km/h</p>
+                <p>wind speed</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
